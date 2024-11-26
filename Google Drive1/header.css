@@ -1,0 +1,134 @@
+@font-face {
+    font-family: sfmedium;
+    src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: sfregular;
+    src: url(./Font/SFPRODISPLAYREGULAR.OTF);
+}
+*{
+    
+    margin: 0;
+    border: 0;
+    color: white;
+    background-color: black;
+}
+svg{
+    padding: 3px;
+    margin: 8px;
+    background-color: transparent;
+}
+header{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+}
+.left_head{
+    height: 100%;
+    width: 15%;
+    margin-left: 20px;
+    background-color: transparent;
+    flex-shrink: 0;
+}
+.logo{
+    height: 40px;
+    width: 45px;
+    margin: 5px;
+    background-color: transparent;
+}
+.logo_text{
+    font-size:25px;
+    font-family: sfregular;
+    background-color: transparent;
+}
+.center_head{
+    height: 100%;
+    width: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.center1{
+    height: 100%;
+    min-width: 70%;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+.search_bar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-shrink: 0;
+}
+.search_logo{
+    height: 45px;
+    width: 10%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a2c;
+    flex-shrink: 0;
+}
+.search_continer{
+    height: 43px;
+    width: 80%;
+    background-color: transparent;
+}
+#search_box{
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+    outline: none;
+    background-color: #282a2c;
+}
+.adv_search{
+    height: 45px;
+    width: 10%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a2c;
+    flex-shrink: 0;
+}
+.center2{
+    height: 100%;
+    width: 30vmax;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: transparent;
+}
+.ready_for_offline, .support, .setting, .google_apps, .account{
+    height: 45px;
+    width: 50px;
+    background-color: transparent;
+}
+.right_head{
+    height: 100%;
+    width: 8%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+}
